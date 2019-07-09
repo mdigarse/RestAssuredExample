@@ -1,0 +1,232 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "hotels",
+    "locations"
+  ],
+  "properties": {
+    "hotels": {
+      "type": "array",
+      "title": "The Hotels Schema",
+      "items": {
+        "$id": "#/properties/hotels/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "hotelId",
+          "name",
+          "city",
+          "country",
+          "thumbnail_url",
+          "displayType",
+          "latitude",
+          "longitude",
+          "isActive"
+        ],
+        "properties": {
+          "hotelId": {
+            "type": "integer",
+            "title": "The Hotelid Schema",
+            "default": 0,
+            "examples": [
+              4026401
+            ]
+          },
+          "name": {
+            "$id": "#/properties/hotels/items/properties/name",
+            "type": "string",
+            "title": "The Name Schema",
+            "default": "",
+            "examples": [
+              "Splendid Etoile Hotel"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "city": {
+            "$id": "#/properties/hotels/items/properties/city",
+            "type": "string",
+            "title": "The City Schema",
+            "default": "",
+            "examples": [
+              "Paris"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "country": {
+            "$id": "#/properties/hotels/items/properties/country",
+            "type": "string",
+            "title": "The Country Schema",
+            "default": "",
+            "examples": [
+              "France"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "thumbnail_url": {
+            "$id": "#/properties/hotels/items/properties/thumbnail_url",
+            "type": "string",
+            "title": "The Thumbnail_url Schema",
+            "default": "",
+            "examples": [
+              "https://az712897.vo.msecnd.net/images/full/58a45c7d-beef-42fa-a5f3-167610ba59a9.jpeg"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "displayType": {
+            "$id": "#/properties/hotels/items/properties/displayType",
+            "type": "string",
+            "title": "The Displaytype Schema",
+            "default": "",
+            "examples": [
+              "Hotel"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "latitude": {
+            "$id": "#/properties/hotels/items/properties/latitude",
+            "type": "number",
+            "title": "The Latitude Schema",
+            "default": 0.0,
+            "examples": [
+              48.875126
+            ]
+          },
+          "longitude": {
+            "$id": "#/properties/hotels/items/properties/longitude",
+            "type": "number",
+            "title": "The Longitude Schema",
+            "default": 0.0,
+            "examples": [
+              2.293814
+            ]
+          },
+          "isActive": {
+            "$id": "#/properties/hotels/items/properties/isActive",
+            "type": "integer",
+            "title": "The Isactive Schema",
+            "default": 0,
+            "examples": [
+              1
+            ]
+          }
+        }
+      }
+    },
+    "locations": {
+      "$id": "#/properties/locations",
+      "type": "array",
+      "title": "The Locations Schema",
+      "items": {
+        "$id": "#/properties/locations/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "name",
+          "placeId",
+          "source",
+          "country",
+          "city",
+          "displayType",
+          "googleType"
+        ],
+        "properties": {
+          "name": {
+            "$id": "#/properties/locations/items/properties/name",
+            "type": "string",
+            "title": "The Name Schema",
+            "default": "",
+            "examples": [
+              "Paris"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "placeId": {
+            "$id": "#/properties/locations/items/properties/placeId",
+            "type": "string",
+            "title": "The Placeid Schema",
+            "default": "",
+            "examples": [
+              "ChIJD7fiBh9u5kcRYJSMaMOCCwQ"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "source": {
+            "$id": "#/properties/locations/items/properties/source",
+            "type": "string",
+            "title": "The Source Schema",
+            "default": "",
+            "examples": [
+              "google"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "country": {
+            "$id": "#/properties/locations/items/properties/country",
+            "type": "string",
+            "title": "The Country Schema",
+            "default": "",
+            "examples": [
+              "France"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "city": {
+            "$id": "#/properties/locations/items/properties/city",
+            "type": "string",
+            "title": "The City Schema",
+            "default": "",
+            "examples": [
+              "Paris"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "displayType": {
+            "$id": "#/properties/locations/items/properties/displayType",
+            "type": "string",
+            "title": "The Displaytype Schema",
+            "default": "",
+            "examples": [
+              "Location"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "googleType": {
+            "$id": "#/properties/locations/items/properties/googleType",
+            "type": "object",
+            "title": "The Googletype Schema",
+            "required": [
+              "TypeNameEN",
+              "TypeNameAR"
+            ],
+            "properties": {
+              "TypeNameEN": {
+                "$id": "#/properties/locations/items/properties/googleType/properties/TypeNameEN",
+                "type": "string",
+                "title": "The Typenameen Schema",
+                "default": "",
+                "examples": [
+                  "city"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "TypeNameAR": {
+                "$id": "#/properties/locations/items/properties/googleType/properties/TypeNameAR",
+                "type": "string",
+                "title": "The Typenamear Schema",
+                "default": "",
+                "examples": [
+                  "مدينة"
+                ],
+                "pattern": "^(.*)$"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

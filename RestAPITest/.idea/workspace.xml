@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="926716ba-897a-400b-a18c-eb7148cecf97" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SearchHotelsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1804#1811#0" expanded="true" />
+                <element signature="e#1958#1964#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Details.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#890#906#0" expanded="true" />
+                <element signature="e#966#967#0" expanded="true" />
+                <element signature="e#994#995#0" expanded="true" />
+                <element signature="e#1062#1063#0" expanded="true" />
+                <element signature="e#1096#1097#0" expanded="true" />
+                <element signature="e#1167#1168#0" expanded="true" />
+                <element signature="e#1201#1202#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
+                <element signature="e#1334#1335#0" expanded="true" />
+                <element signature="e#1395#1396#0" expanded="true" />
+                <element signature="e#1422#1423#0" expanded="true" />
+                <element signature="e#1492#1493#0" expanded="true" />
+                <element signature="e#1524#1525#0" expanded="true" />
+                <element signature="e#1587#1588#0" expanded="true" />
+                <element signature="e#1617#1618#0" expanded="true" />
+                <element signature="e#1692#1693#0" expanded="true" />
+                <element signature="e#1730#1731#0" expanded="true" />
+                <element signature="e#1809#1810#0" expanded="true" />
+                <element signature="e#1857#1858#0" expanded="true" />
+                <element signature="e#1944#1945#0" expanded="true" />
+                <element signature="e#2002#2003#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Dates.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Guest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Room.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/HotelsSchema.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2958">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/GetHotelsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1133">
+              <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/HotelsSchema.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/HotelsSchema.json" />
+        <option value="$PROJECT_DIR$/src/test/java/GetHotelsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dates.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Guest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Room.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Details.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SearchHotelsTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="RestAPITest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RestAPITest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestAPITest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RestAPITest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestAPITest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RestAPITest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestAPITest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RestAPITest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestAPITest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RestAPITest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestAPITest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RestAPITest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestAPITest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562664365939" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\RestAPITest\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SearchHotelsTest.searchHotelsWithValidPayloadTest">
+    <configuration name="GetHotelsTest.getHotelsInvalidQueryParamValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAPITest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetHotelsTest" />
+      <option name="METHOD_NAME" value="getHotelsInvalidQueryParamValueTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchHotelsTest.getHotelsHeaderAndStatusCodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAPITest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchHotelsTest" />
+      <option name="METHOD_NAME" value="getHotelsHeaderAndStatusCodeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchHotelsTest.searchHotelsWithEmptyPayloadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAPITest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchHotelsTest" />
+      <option name="METHOD_NAME" value="searchHotelsWithEmptyPayloadTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchHotelsTest.searchHotelsWithInvalidPathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAPITest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchHotelsTest" />
+      <option name="METHOD_NAME" value="searchHotelsWithInvalidPathTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchHotelsTest.searchHotelsWithValidPayloadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAPITest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchHotelsTest" />
+      <option name="METHOD_NAME" value="searchHotelsWithValidPayloadTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SearchHotelsTest.searchHotelsWithValidPayloadTest" />
+        <item itemvalue="JUnit.SearchHotelsTest.searchHotelsWithInvalidPathTest" />
+        <item itemvalue="JUnit.SearchHotelsTest.searchHotelsWithEmptyPayloadTest" />
+        <item itemvalue="JUnit.SearchHotelsTest.getHotelsHeaderAndStatusCodeTest" />
+        <item itemvalue="JUnit.GetHotelsTest.getHotelsInvalidQueryParamValueTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="926716ba-897a-400b-a18c-eb7148cecf97" name="Default Changelist" comment="" />
+      <created>1562575951456</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562575951456</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SearchHotelsTest_searchHotelsWithValidPayloadTest - 2019.07.09 at 11h 52m 55s.xml">
+      <configuration name="SearchHotelsTest.searchHotelsWithValidPayloadTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchHotelsTest_searchHotelsWithValidPayloadTest - 2019.07.09 at 11h 54m 07s.xml">
+      <configuration name="SearchHotelsTest.searchHotelsWithValidPayloadTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchHotelsTest_searchHotelsWithValidPayloadTest - 2019.07.09 at 11h 55m 19s.xml">
+      <configuration name="SearchHotelsTest.searchHotelsWithValidPayloadTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchHotelsTest_searchHotelsWithValidPayloadTest - 2019.07.09 at 11h 56m 35s.xml">
+      <configuration name="SearchHotelsTest.searchHotelsWithValidPayloadTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchHotelsTest_searchHotelsWithInvalidPathTest - 2019.07.09 at 14h 22m 47s.xml">
+      <configuration name="SearchHotelsTest.searchHotelsWithInvalidPathTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchHotelsTest_searchHotelsWithInvalidPathTest - 2019.07.09 at 14h 24m 26s.xml">
+      <configuration name="SearchHotelsTest.searchHotelsWithInvalidPathTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchHotelsTest_searchHotelsWithInvalidPathTest - 2019.07.09 at 14h 26m 08s.xml">
+      <configuration name="SearchHotelsTest.searchHotelsWithInvalidPathTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchHotelsTest_searchHotelsWithInvalidPathTest - 2019.07.09 at 14h 29m 29s.xml">
+      <configuration name="SearchHotelsTest.searchHotelsWithInvalidPathTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchHotelsTest_searchHotelsWithInvalidPathTest - 2019.07.09 at 14h 31m 08s.xml">
+      <configuration name="SearchHotelsTest.searchHotelsWithInvalidPathTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchHotelsTest_searchHotelsWithValidPayloadTest - 2019.07.09 at 14h 37m 04s.xml">
+      <configuration name="SearchHotelsTest.searchHotelsWithValidPayloadTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14818764" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3261105" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33586133" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" visible="true" weight="0.025586354" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/HotelsSchema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="128" column="1" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/HotelsSchema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2958">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GetHotelsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1133">
+          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Guest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Details.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#890#906#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
+            <element signature="e#1492#1493#0" expanded="true" />
+            <element signature="e#1524#1525#0" expanded="true" />
+            <element signature="e#1587#1588#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+            <element signature="e#1692#1693#0" expanded="true" />
+            <element signature="e#1730#1731#0" expanded="true" />
+            <element signature="e#1809#1810#0" expanded="true" />
+            <element signature="e#1857#1858#0" expanded="true" />
+            <element signature="e#1944#1945#0" expanded="true" />
+            <element signature="e#2002#2003#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SearchHotelsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1804#1811#0" expanded="true" />
+            <element signature="e#1958#1964#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="p4-ProjectCache">
+    <option name="serverState">
+      <list />
+    </option>
+    <option name="clientState">
+      <list />
+    </option>
+    <option name="pendingActions">
+      <list />
+    </option>
+    <option name="changelistState">
+      <State>
+        <option name="lastPendingChangelistId" value="-2" />
+        <option name="linkedChangelistMap">
+          <list />
+        </option>
+        <option name="pendingChangelistMap">
+          <list />
+        </option>
+      </State>
+    </option>
+  </component>
+</project>
