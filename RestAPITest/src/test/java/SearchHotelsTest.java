@@ -1,6 +1,7 @@
 import core.TestBase;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -76,7 +77,63 @@ public class SearchHotelsTest extends TestBase {
                 .when()
                 .post("")
                 .then()
-                .statusCode(200)
-                .log().all();
+                .statusCode(200);
+    }
+
+    @Test(groups = {"hotels"})
+    public void searchHotelsResponseDataTest() {
+        details = new Details();
+        details.dates.setCheckin("02-08-2019");
+        details.dates.setCheckout("05-08-2019");
+        details.setDestination("paris");
+        Guest guest = new Guest();
+        guest.setAge(20);
+        guest.setType("abc");
+        List<Guest> guestList = new ArrayList<Guest>();
+        guestList.add(guest);
+        Room room = new Room();
+        room.setGuest(guestList);
+        List<Room> roomList = new ArrayList<Room>();
+        roomList.add(room);
+        details.setRoom(roomList);
+        details.setPlaceId("324323");
+        String response =
+                given()
+                .spec(requestSpecification)
+                .body(details)
+                .when()
+                .post("")
+                .then().extract().asString();
+        System.out.println(response);
+        Assert.assertNotNull(response);
+    }
+
+    @Test(groups = {"hotels"})
+    public void searchHotelsInvalidCheckinAndCheckoutDateTest() {
+        details = new Details();
+        details.dates.setCheckin("08-08-2019");
+        details.dates.setCheckout("05-08-2019");
+        details.setDestination("paris");
+        Guest guest = new Guest();
+        guest.setAge(20);
+        guest.setType("abc");
+        List<Guest> guestList = new ArrayList<Guest>();
+        guestList.add(guest);
+        Room room = new Room();
+        room.setGuest(guestList);
+        List<Room> roomList = new ArrayList<Room>();
+        roomList.add(room);
+        details.setRoom(roomList);
+        details.setPlaceId("324323");
+        given()
+                .spec(requestSpecification)
+                .body(details)
+                .when()
+                .post("")
+                .then()
+                .statusCode(400)
+                .log().all()
+                .body("status", equalTo(400))
+                .body("title", equalTo("[Gateway:``] Bad Request"));
     }
 }
