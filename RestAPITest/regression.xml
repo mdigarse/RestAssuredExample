@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="hotels api test" parallel="false" thread-count="1" group-by-instances="true">
+    <groups>
+        <run>
+            <include name="hotels"/>
+        </run>
+    </groups>
+    <test name="hotels test" group-by-instances="true">
+        <classes>
+            <class name="GetHotelsTest"/>
+            <class name="SearchHotelsTest"/>
+        </classes>
+    </test>
+</suite>
+

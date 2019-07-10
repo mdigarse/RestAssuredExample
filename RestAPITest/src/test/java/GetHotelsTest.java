@@ -1,11 +1,11 @@
+import core.TestBase;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
-import org.junit.Assert;
-import org.junit.BeforeClass;
-import org.junit.Test;
-
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.expect;
 import static io.restassured.RestAssured.given;
@@ -13,20 +13,20 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.equalTo;
 
-public class GetHotelsTest {
+public class GetHotelsTest extends TestBase {
     public static RequestSpecification requestSpecification;
     public static ResponseSpecification responseSpecification;
 
     @BeforeClass
     public static void setUp() {
         requestSpecification = given().contentType("application/json")
-                .baseUri("https://www.tajawal.ae/api")
+                .baseUri(BASE_URL)
                 .basePath("/hotel/ahs/geo-suggest");
         responseSpecification = expect().statusCode(200)
                 .header("Content-Type", "application/json");
     }
 
-    @Test
+    @Test(groups = {"hotels"})
     public void getHotelsStatusCodeTestWithTryCatch() {
         Response response = null;
         try {
@@ -42,7 +42,7 @@ public class GetHotelsTest {
         Assert.assertEquals(200, response.getStatusCode());
     }
 
-    @Test
+    @Test(groups = {"hotels"})
     public void getHotelsHeaderAndStatusCodeTest() {
           given()
                     .spec(requestSpecification)
@@ -52,7 +52,7 @@ public class GetHotelsTest {
                     .then()
                     .spec(responseSpecification);
     }
-    @Test
+    @Test(groups = {"hotels"})
     public void getHotelsInvalidCountryTest() {
         given()
                 .spec(requestSpecification)
@@ -64,7 +64,7 @@ public class GetHotelsTest {
                 .statusCode(200);
     }
 
-    @Test
+    @Test(groups = {"hotels"})
     public void getHotelsInvalidPathTest() {
         given()
                 .spec(requestSpecification)
@@ -80,7 +80,7 @@ public class GetHotelsTest {
                 .body("type", equalTo("https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html"));
     }
 
-    @Test
+    @Test(groups = {"hotels"})
     public void getHotelsInvalidRouteTest() {
         given()
                 .spec(requestSpecification)
@@ -96,7 +96,7 @@ public class GetHotelsTest {
                 .body("type", equalTo("https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html"));
     }
 
-    @Test
+    @Test(groups = {"hotels"})
     public void getHotelsInvalidQueryParamTest() {
         given()
                 .spec(requestSpecification)
@@ -108,7 +108,7 @@ public class GetHotelsTest {
                 .body("detail", containsString("invalid parameter name"));
     }
 
-    @Test
+    @Test(groups = {"hotels"})
     public void getHotelsEmptyQueryParamValueTest() {
         given()
                 .spec(requestSpecification)
@@ -120,7 +120,7 @@ public class GetHotelsTest {
                 .body("detail", containsString("invalid parameter value"));
     }
 
-    @Test
+    @Test(groups = {"hotels"})
     public void getHotelJsonSchemaTest() {
         given()
                 .spec(requestSpecification)

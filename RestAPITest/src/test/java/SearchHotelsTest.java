@@ -1,7 +1,8 @@
+import core.TestBase;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +11,7 @@ import static io.restassured.RestAssured.expect;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-public class SearchHotelsTest {
+public class SearchHotelsTest extends TestBase {
     public static RequestSpecification requestSpecification;
     public static ResponseSpecification responseSpecification;
     Details details;
@@ -18,13 +19,13 @@ public class SearchHotelsTest {
     @BeforeClass
     public static void setUp() {
         requestSpecification = given().contentType("application/json")
-                .baseUri("https://www.tajawal.ae/api")
+                .baseUri(BASE_URL)
                 .basePath("/hotel/ahs/search/request");
         responseSpecification = expect().statusCode(200)
                 .header("Content-Type", "application/json");
     }
 
-    @Test
+    @Test(groups = {"hotels"})
     public void searchHotelsWithEmptyPayloadTest() {
         given()
                 .spec(requestSpecification)
@@ -34,11 +35,10 @@ public class SearchHotelsTest {
                 .statusCode(400)
                 .body("status", equalTo(400))
                 .body("title", equalTo("[Gateway:``] Bad Request"))
-                .body("detail.destination", equalTo("[The destination field is required.]"))
                 .body("type", equalTo("https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html"));
     }
 
-    @Test
+    @Test(groups = {"hotels"})
     public void searchHotelsWithInvalidPathTest() {
         given()
                 .spec(requestSpecification)
@@ -53,7 +53,7 @@ public class SearchHotelsTest {
                 .body("type", equalTo("https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html"));
     }
 
-    @Test
+    @Test(groups = {"hotels"})
     public void searchHotelsWithValidPayloadTest() {
         details = new Details();
         details.dates.setCheckin("11-09-2019");
