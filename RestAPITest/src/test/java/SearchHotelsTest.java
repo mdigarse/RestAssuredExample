@@ -56,21 +56,8 @@ public class SearchHotelsTest extends TestBase {
 
     @Test(groups = {"hotels"})
     public void searchHotelsWithValidPayloadTest() {
-        details = new Details();
-        details.dates.setCheckin("11-09-2019");
-        details.dates.setCheckout("13-09-2019");
-        details.setDestination("paris");
-        Guest guest = new Guest();
-        guest.setAge(23);
-        guest.setType("abc");
-        List<Guest> guestList = new ArrayList<Guest>();
-        guestList.add(guest);
-        Room room = new Room();
-        room.setGuest(guestList);
-        List<Room> roomList = new ArrayList<Room>();
-        roomList.add(room);
-        details.setRoom(roomList);
-        details.setPlaceId("3243");
+        details = getDetails("11-09-2019", "13-09-2019",
+                "paris", 20, "abc", "5454");
         given()
                 .spec(requestSpecification)
                 .body(details)
@@ -82,21 +69,8 @@ public class SearchHotelsTest extends TestBase {
 
     @Test(groups = {"hotels"})
     public void searchHotelsResponseDataTest() {
-        details = new Details();
-        details.dates.setCheckin("02-08-2019");
-        details.dates.setCheckout("05-08-2019");
-        details.setDestination("paris");
-        Guest guest = new Guest();
-        guest.setAge(20);
-        guest.setType("abc");
-        List<Guest> guestList = new ArrayList<Guest>();
-        guestList.add(guest);
-        Room room = new Room();
-        room.setGuest(guestList);
-        List<Room> roomList = new ArrayList<Room>();
-        roomList.add(room);
-        details.setRoom(roomList);
-        details.setPlaceId("324323");
+        details = getDetails("02-08-2019", "05-08-2019",
+                "paris", 20, "abc", "5454");
         String response =
                 given()
                 .spec(requestSpecification)
@@ -110,21 +84,8 @@ public class SearchHotelsTest extends TestBase {
 
     @Test(groups = {"hotels"})
     public void searchHotelsInvalidCheckinAndCheckoutDateTest() {
-        details = new Details();
-        details.dates.setCheckin("08-08-2019");
-        details.dates.setCheckout("05-08-2019");
-        details.setDestination("paris");
-        Guest guest = new Guest();
-        guest.setAge(20);
-        guest.setType("abc");
-        List<Guest> guestList = new ArrayList<Guest>();
-        guestList.add(guest);
-        Room room = new Room();
-        room.setGuest(guestList);
-        List<Room> roomList = new ArrayList<Room>();
-        roomList.add(room);
-        details.setRoom(roomList);
-        details.setPlaceId("324323");
+        details = getDetails("08-08-2019", "05-08-2019",
+                "paris", 20, "abc", "5454");
         given()
                 .spec(requestSpecification)
                 .body(details)
@@ -135,5 +96,25 @@ public class SearchHotelsTest extends TestBase {
                 .log().all()
                 .body("status", equalTo(400))
                 .body("title", equalTo("[Gateway:``] Bad Request"));
+    }
+
+    public Details getDetails(String checkIn, String checkout, String destination,
+                              int age, String guestType, String placeId) {
+        details = new Details();
+        details.dates.setCheckin(checkIn);
+        details.dates.setCheckout(checkout);
+        details.setDestination(destination);
+        Guest guest = new Guest();
+        guest.setAge(age);
+        guest.setType(guestType);
+        List<Guest> guestList = new ArrayList<Guest>();
+        guestList.add(guest);
+        Room room = new Room();
+        room.setGuest(guestList);
+        List<Room> roomList = new ArrayList<Room>();
+        roomList.add(room);
+        details.setRoom(roomList);
+        details.setPlaceId(placeId);
+        return details;
     }
 }
