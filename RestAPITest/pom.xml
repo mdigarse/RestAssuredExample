@@ -14,7 +14,7 @@
         <jasonschemavalidator.version>3.0.2</jasonschemavalidator.version>
         <jsonpath.version>3.2.0</jsonpath.version>
         <javahamcrest.version>2.0.0.0</javahamcrest.version>
-        <log4j.version>2.11.1</log4j.version>
+        <log4j.version>2.15.0</log4j.version>
         <allure-java.version>2.6.0</allure-java.version>
         <testng.version>6.14.3</testng.version>
     </properties>
