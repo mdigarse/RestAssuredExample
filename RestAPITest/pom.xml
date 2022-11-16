@@ -10,7 +10,7 @@
 
     <properties>
         <restassured.version>3.2.0</restassured.version>
-        <jackson.version>2.9.8</jackson.version>
+        <jackson.version>2.12.7.1</jackson.version>
         <jasonschemavalidator.version>3.0.2</jasonschemavalidator.version>
         <jsonpath.version>3.2.0</jsonpath.version>
         <javahamcrest.version>2.0.0.0</javahamcrest.version>
